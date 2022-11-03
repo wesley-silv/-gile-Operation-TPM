@@ -1,0 +1,43 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 5px 5px 5px silver;
+  padding: 0.5em 1em;
+}
+header a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+}
+header .logo {
+  height: 80px;
+}
+header .logo:hover {
+  -webkit-animation: rotate360 3s;
+          animation: rotate360 3s;
+}
+header .menu {
+  height: 30px;
+}
+header .menu:hover {
+  cursor: pointer;
+}
+@-webkit-keyframes rotate360 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+@keyframes rotate360 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}/*# sourceMappingURL=header.css.map */

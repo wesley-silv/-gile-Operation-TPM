@@ -1,0 +1,26 @@
+header
+  display: flex
+  justify-content: space-between
+  align-items: center
+  box-shadow: 5px 5px 5px silver
+  padding: .5em 1em
+  a
+    text-decoration: none
+    font-size: 20px
+    font-weight: bold
+    color: black
+    text-transform: uppercase
+  .logo
+    height: 80px
+    &:hover
+      animation: rotate360 3s
+  .menu
+    height: 30px
+    &:hover
+      cursor: pointer
+
+  @keyframes rotate360 
+    from 
+      transform: rotateY(0deg)
+    to 
+      transform: rotateY(360deg)
